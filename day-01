@@ -1,1 +1,20 @@
-index.js
+// Day 01 - JavaScript Fundamentals
+
+// Variable
+let name = "Eldoardo";
+const birthYear = 2003;
+
+// Basic operation
+let currentYear = 2025;
+let age = currentYear - birthYear;
+
+console.log("Name:", name);
+console.log("Age:", age);
+
+// Calculate square area
+function squareArea(side) {
+  return side * side;
+}
+
+console.log("Square area:", squareArea(5));
+
