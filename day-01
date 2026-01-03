@@ -1,20 +1,29 @@
-// Day 01 - JavaScript Fundamentals
+// Variabel untuk menyimpan angka
+let angkaPertama = 26;
+let angkaKedua = 10;
+let hasilPenjumlahan;
 
-// Variable
-let name = "Eldoardo";
-const birthYear = 2003;
+// operasi penjumlahan
+hasilPenjumlahan = angkaPertama + angkaKedua;
 
-// Basic operation
-let currentYear = 2025;
-let age = currentYear - birthYear;
+console.log("Angka pertama:", angkaPertama);
+console.log("Angka kedua:", angkaKedua);
+console.log("Hasil penjumlahan:", hasilPenjumlahan);
 
-console.log("Name:", name);
-console.log("Age:", age);
+// Penjumlahan langsung tdk dgn var
+console.log("5 + 3 =", 5 + 3);
 
-// Calculate square area
-function squareArea(side) {
-  return side * side;
+// Variabel dengan nilai baru
+let a = 15;
+let b = 7;
+let total = a + b;
+
+console.log(`${a} + ${b} = ${total}`);
+
+// Function penjumlahan dua angka
+function jumlahkan(angka1, angka2) {
+  return angka1 + angka2;
 }
 
-console.log("Square area:", squareArea(5));
-
+console.log("Hasil dari 20 + 30 =", jumlahkan(20, 30));
+console.log("Hasil dari 100 + 250 =", jumlahkan(100, 250));
